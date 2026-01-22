@@ -12,6 +12,6 @@
 - **My Nguyen**: Shopping Cart implementation, user log in, pagination
 - **Trinh Nguyen Do**: Search mechanism, page sorting
 
-## Movie Demo (Project 2):
+## Movie Demo:
 
-https://drive.google.com/drive/folders/1imriueY4WagDyhEL3XarNvDIIglqIZqp?usp=sharing
+[https://drive.google.com/drive/folders/1imriueY4WagDyhEL3XarNvDIIglqIZqp?usp=sharing](https://youtu.be/yUfVlDxhdBc?si=qAhFj26AwgOFE-6v)
