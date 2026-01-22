@@ -1,0 +1,29 @@
+#root {
+    text-align: center;
+    font-family: Inter, Babas Neue, Helvetica, sans-serif;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+
+}
+
+.logo {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    white-space: nowrap;
+    font-family: Bebas Neue, sans-serif;
+    font-weight: bolder;
+}

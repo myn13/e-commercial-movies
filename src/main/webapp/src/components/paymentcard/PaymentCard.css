@@ -1,0 +1,355 @@
+/* Payment Card Styles */
+.payment-card {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.payment-card h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: var(--font-heading);
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.payment-summary {
+    background-color: #393939;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #555;
+}
+
+.payment-summary h3 {
+    color: #fff;
+    margin: 0 0 0.5rem 0;
+    font-family: var(--font-heading);
+}
+
+.payment-summary p {
+    color: #ccc;
+    margin: 0.25rem 0;
+    font-size: 1rem;
+}
+
+/* Customer Information Styles */
+.customer-info {
+    background-color: #393939;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #555;
+    margin-bottom: 1rem;
+}
+
+.customer-info h3 {
+    color: #fff;
+    margin: 0 0 1rem 0;
+    font-family: var(--font-heading);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.form-group input {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.form-group input::placeholder {
+    color: #aab7c4;
+}
+
+.card-element-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-element-container label {
+    color: #fff;
+    font-weight: 500;
+}
+
+.card-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.card-element-container .StripeElement {
+    background-color: #393939;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 1rem;
+    color: #fff;
+    flex: 1;
+}
+
+.card-brand-icons {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-brand-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+
+.supported-cards {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+    align-items: center;
+}
+
+.supported-cards-label {
+    color: #ccc;
+    font-size: 0.875rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.supported-cards-icons {
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.payment-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.payment-button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.payment-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.payment-success {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.payment-success h2 {
+    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+}
+
+.payment-success p {
+    color: #ccc;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.order-id {
+    background-color: #393939;
+    padding: 1rem;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    border: 1px solid #555;
+}
+
+.order-id p {
+    margin: 0;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.order-details {
+    background-color: #393939;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    border: 1px solid #555;
+    text-align: left;
+}
+
+.order-details h3 {
+    color: #fff;
+    margin: 0 0 1rem 0;
+    font-family: var(--font-heading);
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.order-item {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+}
+
+.order-item p {
+    margin: 0.5rem 0;
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+.order-item p strong {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.order-total {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.order-total p {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.continue-shopping-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 1rem;
+}
+
+.continue-shopping-btn:hover {
+    background-color: #218838;
+}
+
+.payment-error {
+    background-color: #dc3545;
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.payment-error p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Card Details Row Styles */
+.card-details-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-details-row select {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.card-details-row select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.card-details-row select option {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .payment-card,
+    .payment-success {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .payment-button {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    .card-details-row {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .supported-cards-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

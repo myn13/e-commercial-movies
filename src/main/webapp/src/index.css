@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-body: 'Inter', 'Arial', sans-serif;
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-color: #e4e4e4;
+    --main-bg-color: black;
+    --accent-color: #a71bc3;
+}
+
+body {
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    color: var(--font-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+h4, h5, h6 {
+    font-family: var(--font-body);
+}
+
+.page-body {
+    padding-top: 3rem;
+    margin: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+a {
+    color: var(--font-color);
+}

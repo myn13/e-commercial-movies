@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@stripe/react-stripe-js": "^5.2.0",
+    "@stripe/stripe-js": "^8.1.0",
+    "axios": "^1.12.2",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "daisyui": "^5.3.10",
+    "tailwindcss": "^4.1.16"
+  }
+}
